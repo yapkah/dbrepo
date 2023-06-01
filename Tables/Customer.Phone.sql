@@ -6,6 +6,7 @@ CREATE TABLE [Customer].[Phone]
 [DiallingNumber] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Start_date] [datetime] NULL,
 [End_date] [datetime] NULL,
+[thiscolumn] [int] NULL,
 [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF__Phone__ModifiedD__37A5467C] DEFAULT (getdate())
 ) ON [PRIMARY]
 GO
